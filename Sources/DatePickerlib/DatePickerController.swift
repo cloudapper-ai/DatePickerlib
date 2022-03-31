@@ -421,7 +421,6 @@ class DateComponent: UIView, UICollectionViewDelegateFlowLayout, UICollectionVie
         button.translatesAutoresizingMaskIntoConstraints = false
         let buttonArrow: UIImage? = UIImage(named: "month_left", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
-        button.contentEdgeInsets = .init(top: 4, left: 4, bottom: 4, right: 4)
         button.tintColor = .systemBlue
         return button
     }()
@@ -431,7 +430,6 @@ class DateComponent: UIView, UICollectionViewDelegateFlowLayout, UICollectionVie
         button.translatesAutoresizingMaskIntoConstraints = false
         let buttonArrow: UIImage? = UIImage(named: "month_right", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
-        button.contentEdgeInsets = .init(top: 4, left: 4, bottom: 4, right: 4)
         button.tintColor = .systemBlue
         return button
     }()
@@ -523,7 +521,6 @@ class MonthYearButton: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         let buttonArrow: UIImage? = UIImage(named: "month_picker_right", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
-        button.contentEdgeInsets = .init(top: 4, left: 4, bottom: 4, right: 4)
         button.tintColor = .systemBlue
         button.isUserInteractionEnabled = false
         return button
