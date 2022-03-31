@@ -1,3 +1,3 @@
 # DatePickerlib
 
-A description of this package.
+This is a simple to use iOS Date time picker.
