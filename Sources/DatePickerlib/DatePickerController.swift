@@ -419,7 +419,7 @@ class DateComponent: UIView, UICollectionViewDelegateFlowLayout, UICollectionVie
     private let leftButton: UIButton = {
         let button: UIButton = .init(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        let buttonArrow: UIImage? = UIImage(named: "month_left", in: Bundle(for: DateComponent.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+        let buttonArrow: UIImage? = UIImage(named: "month_left", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
         button.tintColor = .systemBlue
         return button
@@ -428,7 +428,7 @@ class DateComponent: UIView, UICollectionViewDelegateFlowLayout, UICollectionVie
     private let rightButton: UIButton = {
         let button: UIButton = .init(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        let buttonArrow: UIImage? = UIImage(named: "month_right", in: Bundle(for: DateComponent.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+        let buttonArrow: UIImage? = UIImage(named: "month_right", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
         button.tintColor = .systemBlue
         return button
@@ -519,7 +519,7 @@ class MonthYearButton: UIView {
     private let button: UIButton = {
         let button: UIButton = .init(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        let buttonArrow: UIImage? = UIImage(named: "month_picker_right", in: Bundle(for: DateComponent.self), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+        let buttonArrow: UIImage? = UIImage(named: "month_picker_right", in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
         button.setImage(buttonArrow, for: .normal)
         button.tintColor = .systemBlue
         button.isUserInteractionEnabled = false

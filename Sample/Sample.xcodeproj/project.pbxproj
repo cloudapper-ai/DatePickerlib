@@ -11,9 +11,9 @@
 		C2F70D1627F56A0D00E67F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F70D0C27F56A0D00E67F4D /* AppDelegate.swift */; };
 		C2F70D1A27F56A0D00E67F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F70D1327F56A0D00E67F4D /* ViewController.swift */; };
 		C2F70D1B27F56A0D00E67F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F70D1427F56A0D00E67F4D /* Assets.xcassets */; };
-		C2F70D1E27F56A4900E67F4D /* DatePickerlib in Frameworks */ = {isa = PBXBuildFile; productRef = C2F70D1D27F56A4900E67F4D /* DatePickerlib */; };
 		C2F70D1F27F56B6D00E67F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F70D1027F56A0D00E67F4D /* LaunchScreen.storyboard */; };
 		C2F70D2027F56B6D00E67F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F70D1227F56A0D00E67F4D /* Main.storyboard */; };
+		C2F70D2327F56FF600E67F4D /* DatePickerlib in Frameworks */ = {isa = PBXBuildFile; productRef = C2F70D2227F56FF600E67F4D /* DatePickerlib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F70D1E27F56A4900E67F4D /* DatePickerlib in Frameworks */,
+				C2F70D2327F56FF600E67F4D /* DatePickerlib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +44,7 @@
 			children = (
 				C2F70CE427F569A500E67F4D /* Sample */,
 				C2F70CE327F569A500E67F4D /* Products */,
+				C2F70D2127F56FF600E67F4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +70,13 @@
 			path = Sample;
 			sourceTree = "<group>";
 		};
+		C2F70D2127F56FF600E67F4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,7 +94,7 @@
 			);
 			name = Sample;
 			packageProductDependencies = (
-				C2F70D1D27F56A4900E67F4D /* DatePickerlib */,
+				C2F70D2227F56FF600E67F4D /* DatePickerlib */,
 			);
 			productName = Sample;
 			productReference = C2F70CE227F569A500E67F4D /* Sample.app */;
@@ -370,7 +378,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C2F70D1D27F56A4900E67F4D /* DatePickerlib */ = {
+		C2F70D2227F56FF600E67F4D /* DatePickerlib */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C2F70D1C27F56A4900E67F4D /* XCRemoteSwiftPackageReference "DatePickerlib" */;
 			productName = DatePickerlib;
